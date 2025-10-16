@@ -1,0 +1,175 @@
+/*je supprimer les marges par défaut du navigateur*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.uni-container {
+    background: url("../images/hero.png");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#logoHeader {
+    height: 150px;
+    width: 220px;
+    position: relative;
+    bottom: 25px;
+}
+
+.uni-menu {
+    float: left;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 23px;
+}
+
+.cssmenu ul {
+    display: flex;
+    gap: 35px;
+}
+
+.cssmenu a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    font-family: "Heebo", sans-serif;
+}
+
+.cssmenu li {
+    list-style-type: none;
+}
+
+.uni-container-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.navigation-menu-text {
+    display: flex;
+}
+
+#textsearch::placeholder {
+    color: white;
+    position: absolute;
+    left: 55px;
+}
+
+#textsearch {
+    background-color: transparent;
+    border: 1px solid white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 40px;
+    border-radius: 15px;
+}
+
+.search {
+    position: relative;
+    bottom: 20px;
+}
+
+.fa-magnifying-glass {
+    color: white;
+    position: absolute;
+    top: 15px;
+    left: 20px;
+}
+
+.iconenavigation {
+    position: absolute;
+    left: 40%;
+}
+
+#imgherodoctor {
+    width: 600px;
+}
+
+.div-hero-right {
+    margin-right: 140px;
+}
+
+.content-hero {
+    display: flex;
+    justify-content: space-between;
+}
+
+.formright {
+    position: relative;
+    top: 20px;
+    right: 30px;
+
+}
+
+.formleft {
+    position: relative;
+    top: 20px;
+    left: 30px;
+}
+
+.formhero {
+    background: white;
+    position: relative;
+    bottom: 190px;
+    height: 203px;
+    border-radius: 20px 20px 0 0;
+}
+
+.form-container {
+    display: flex;
+    gap: 90px;
+}
+
+.listederoulante {
+    width: 250px;
+    height: 50px;
+    border-radius: 10px;
+    border-color: rgba(0, 0, 0, 0.1);
+    padding-left: 60px;
+}
+#date {
+    position: relative;
+    top: 20px;
+}
+#time {
+    position: relative;
+    top: 20px;
+}
+select {
+    color: #555;
+}
+#iconedoctor {
+    position: absolute;
+    left: 27px;
+    top: 12px;
+}
+#iconecalendar {
+    position: absolute;
+    left: 27px;
+    top: 30px;
+    z-index: 1;
+}
+.listedate{
+    position: relative; 
+}
+#iconevector{
+    position: absolute;
+    left: 27px;
+    top: 12px;
+}
+#iconetime{
+    position: absolute;
+    left: 27px;
+    top: 30px;
+    z-index: 1;
+}
+.listetime{
+    position: relative;
+}
+.listenamedoctor{
+    position: relative;
+}

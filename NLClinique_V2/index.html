@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home-NLClinique</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="uni-home">
+        <div class="uni-container">
+            <header>
+                <div class="uni-container-header">
+                    <!--LOGO-->
+                    <div class="wrapper-logo">
+                        <a class="logo" href="index.html">
+                            <img src="images/logooBlanc.png" alt="" id="logoHeader">
+                        </a>
+                    </div>
+                    <!--MENU PRINCIPALE-->
+                    <div class="uni-menu">
+                        <nav class="navigation-menu-text">
+                            <div class="cssmenu">
+                                <ul>
+                                    <div style="position : relative;">
+                                        <li><a href="index.html">Home</a></li>
+                                        <img src="icones/icone.png" alt="" class="iconenavigation">
+                                    </div>
+                                    <li><a href="index.html">About</a></li>
+                                    <li><a href="index.html">Doctors</a></li>
+                                    <li><a href="index.html">Services</a></li>
+                                    <li><a href="index.html">Contact</a></li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                    <!--search-->
+                    <div class="search">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <input type="text" id="textsearch" placeholder="Search">
+                    </div>
+                </div>
+            </header>
+            <div id="main-content">
+                <section class="content-hero">
+                    <div class="div-hero-left">
+                    </div>
+                    <div class="div-hero-right">
+                        <img src="images/herodoctor.png" id="imgherodoctor" alt="">
+                        <div class="formhero">
+                            <form action="" method="">
+                                <div class="form-container">
+                                    <div class="formleft">
+                                        <div class="listetypedoctor">
+                                            <img src="icones/doctors-bag.png" id="iconedoctor" alt="">
+                                            <select name="doctortype" class="listederoulante">
+                                                <option value=""> <img src="icones/icone.png" alt="">Doctor Type
+                                                </option>
+                                            </select>
+                                        </div>
+                                        <div class="listedate">
+                                            <img src="icones/calendar.png" id="iconecalendar" alt="">
+                                            <select name="date" class="listederoulante" id="date">
+                                                <option value="">Date</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="formright">
+                                        <div class="listenamedoctor">
+                                            <img src="icones/Vector.png" alt="" id="iconevector">
+                                            <select name="doctorname" class="listederoulante">
+                                                <option value="">Doctor Name</option>
+                                            </select>
+                                        </div>
+                                        <div class="listetime">
+                                            <img src="icones/clock.png" id="iconetime" alt="">
+                                            <select name="time" class="listederoulante" id="time">
+                                                <option value="">Time</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
