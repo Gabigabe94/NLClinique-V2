@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Inter", sans-serif;
 }
 
 .uni-container {
@@ -36,7 +37,6 @@
     color: white;
     text-decoration: none;
     font-weight: 600;
-    font-family: "Heebo", sans-serif;
 }
 
 .cssmenu li {
@@ -66,6 +66,7 @@
     padding-bottom: 15px;
     padding-right: 40px;
     border-radius: 15px;
+    font-size: 15px;
 }
 
 .search {
@@ -115,15 +116,119 @@
     background: white;
     position: relative;
     bottom: 190px;
-    height: 203px;
+    height: 210px;
     border-radius: 20px 20px 0 0;
 }
+.priority{
+    background-color: #2ecc70a8;
+    border-radius: 20px 20px 0 20px;
+    position: absolute;
+    width: 315px;
+    height: 50px;
+    color: white;
+    top: 35px;
+    left: 150px;
+    padding: 10px 35px 25px 35px;
+    font-size: 20px;
+    border: 2px solid #5EE088;
+}
+#texthero{
+    color: white;
+    font-size: 50px;
+    font-weight: 600;
+    position: absolute;
+    width: 800px;
+    left: 150px;
+    top: 130px;
+}
+#text2hero{
+    color: white;
+    font-size: 22px;
+    position: absolute;
+    width: 500px;
+    top: 280px;
+    left: 150px;
+}
+.container-contact{
+    position: absolute;
+    top: 385px;
+    left: 150px;
+    display: flex;
+    gap: 23px;
 
+}
+.book-appointment{
+    position: relative;
+}
+#buttonbook{
+    width: 250px;
+    height: 60px;
+    font-size: 18px;
+    font-weight: 14px;
+    color: white;
+    background-color: #ff6f61;
+    border-color: transparent;
+    border-radius: 30px 30px 30px 30px;
+    padding-right: 40px;
+    position: relative;
+    z-index: 0;
+}
+#idflechebook{
+    position: absolute;
+    top: 12px;
+    left: 200px;
+    z-index: 1;
+    
+}
+.or{
+    color: white;
+    position: relative;
+    top: 20px;
+}
+#buttoncontact{
+    background: transparent;
+    border: 1px solid white;
+    font-weight: 14px;
+    font-size: 18px;
+    height: 60px;
+    border-radius: 30px 30px 30px 30px;
+    color: white;
+    width: 150px;
+}
+.countainer-hours{
+    color: white;
+    width: 280px;
+    height: 100px;
+}
+.countainer-hours-global{
+    display: flex;
+    gap: 20px;
+    position: absolute;
+    top: 500px;
+    left: 150px;
+}
+#idiconehours{
+    width: 70px;
+    height: 95px;
+}
+.div-hero-left{
+    position: relative;
+}
 .form-container {
     display: flex;
     gap: 90px;
 }
-
+#buttoncheck{
+    position: absolute;
+    bottom: 10px;
+    left: 180px;
+    padding: 10px 25px 10px 25px;
+    border-radius: 20px;
+    background-color: #FF6F61;
+    border: none;
+    font-size: 17px;
+    color: white;
+}
 .listederoulante {
     width: 250px;
     height: 50px;
