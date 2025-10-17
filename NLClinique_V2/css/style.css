@@ -433,18 +433,21 @@ select {
     bottom: 170px;
     left: 40px;
 }
-.lineiconeabout{
+
+.lineiconeabout {
     display: flex;
     gap: 23px;
     margin: 30px 0 0 30px;
 }
-#line{
+
+#line {
     width: 100px;
     height: 1px;
     margin-right: 20px;
     margin-top: 10px;
 }
-#moreabout{
+
+#moreabout {
     width: 200px;
     height: 60px;
     font-size: 18px;
@@ -457,18 +460,142 @@ select {
     position: relative;
     margin-top: 50px;
 }
-.divabout{
+
+.divabout {
     display: flex;
     gap: 200px;
     height: 50px;
     margin-top: 50px;
     margin-left: 150px;
 }
-.stylpara{
+
+.stylpara {
     color: #2c96e5;
     font-size: 80px;
     font-weight: bold;
 }
-.stylpara2{
-    
+
+.uni-container-services {
+    background: #F4F8FB;
+    border-radius: 15px 15px 15px 15px;
+    width: 1600px;
+    height: 1150px;
+    position: relative;
+    left: 50px;
+    right: 50px;
+}
+
+.ourservice {
+    background-color: #2ecc70f6;
+    color: white;
+    width: 180px;
+    height: 50px;
+    border-radius: 20px 20px 0 20px;
+    font-weight: 600;
+    position: relative;
+    top: 100px;
+    left: 100px;
+    padding: 20px;
+}
+
+#p1 {
+    color: #2c96e5;
+    font-size: 40px;
+    font-weight: 600;
+    width: 500px;
+    height: 100px;
+    margin-top: 150px;
+    margin-left: 100px;
+}
+
+#p2 {
+    margin-top: 180px;
+    margin-right: 100px;
+}
+
+.divserv {
+    display: flex;
+    justify-content: space-between;
+}
+
+#p2 {
+    text-align: end;
+}
+
+.sp1 {
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    border-radius: 25px 25px 25px 25px;
+    margin-top: 50px;
+}
+
+.sp1-1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+#img-sp1 {
+    width: 60px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+h1 {
+    color: #D6F6FD;
+    font-size: 50px;
+    margin-right: 30px;
+    margin-top: 25px;
+}
+
+.par {
+    color: #2677BC;
+    font-size: 25px;
+    font-weight: 500;
+    margin-left: 30px;
+    margin-top: 25px;
+}
+
+.par2 {
+    color: #5B5B5B;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.sp1 {}
+
+#btnspecia1 {
+    background: transparent;
+    border: 1px solid #DB4746;
+    color: #DB4746;
+    border-radius: 23px 23px 23px 23px;
+    width: 150px;
+    height: 45px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.lineSpecialite1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.lineSpecialite2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+#btnservice {
+    width: 300px;
+    height: 60px;
+    font-size: 18px;
+    font-weight: 14px;
+    color: white;
+    background-color: #ff6f61;
+    border-color: transparent;
+    border-radius: 30px 30px 30px 30px;
+    padding-right: 40px;
+    position: relative;
+    margin-top: 50px;
+    margin-left: 650px;
 }
