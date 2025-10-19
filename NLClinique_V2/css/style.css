@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family: "Inter", sans-serif;
 }
+
 /*html, body {
   overflow-x: hidden;
 }*/
@@ -623,7 +624,7 @@ h1 {
     position: relative;
     left: 650px;
     top: 50px;
-    padding-right:30px ;
+    padding-right: 30px;
 }
 
 .uni-container-doctors {
@@ -730,21 +731,25 @@ h1 {
     top: 300px;
     left: 60px;
 }
-.appoint{
+
+.appoint {
     margin-top: 400px;
     margin-left: 50px;
     position: relative;
 }
-#imgrec{
+
+#imgrec {
     position: absolute;
     left: 50px;
     top: 1px;
 }
-#imgcov{
+
+#imgcov {
     position: relative;
     left: 840px;
 }
-.pappoint{
+
+.pappoint {
     color: white;
     font-size: 50px;
     font-weight: 600;
@@ -754,14 +759,16 @@ h1 {
     bottom: 450px;
     left: 150px;
 }
-.pappoit2{
+
+.pappoit2 {
     color: white;
     position: relative;
     bottom: 390px;
     left: 150px;
     font-size: 18px;
 }
-#btnappoint{
+
+#btnappoint {
     color: #2677bc;
     position: relative;
     bottom: 320px;
@@ -772,9 +779,191 @@ h1 {
     font-size: 17px;
     padding-right: 50px;
 }
-#flechapp{
+
+#flechapp {
     width: 40px;
     position: absolute;
     right: 20px;
     bottom: 8px;
+}
+
+.pricing {
+    position: relative;
+    bottom: 200px;
+    left: 50px;
+}
+
+.pric1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+#pr1 {
+    color: #2c96e5;
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 150px;
+    margin-left: 100px;
+}
+
+#pr2 {
+    top: 180px;
+    right: 150px;
+    position: relative;
+    font-size: 20px;
+    text-align: end;
+}
+
+.pric {
+    background-color: #2ecc70f6;
+    border: 3px solid rgba(0, 128, 0, 0.253);
+    color: white;
+    width: 100px;
+    height: 50px;
+    border-radius: 20px 20px 0 20px;
+    font-weight: 600;
+    position: relative;
+    top: 100px;
+    left: 100px;
+    padding: 15px;
+}
+
+.pric2 {
+    margin-top: 50px;
+    display: flex;
+}
+
+.pric2-1 {
+    border: 1px solid #E1E1E1;
+    border-radius: 23px 23px 23px 23px;
+    margin-left: 100px;
+    width: 300px;
+    height: 650px;
+}
+
+.parpric {
+    color: #2677BC;
+    font-size: 30px;
+    font-weight: 600;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.parpric2 {
+    color: #5a5858;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.parpric3 {
+    color: #2c96e5;
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.parpric3 .sp{
+    color: gray;
+    font-size: 20px;
+}
+.lin{
+    margin-left: 20px;
+    width: 250px;
+}
+.parpric4{
+    color: #2c96e5;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.container-parpric{
+    display: flex;
+    gap: 15px;
+}
+.imgcheck{
+    margin-left: 20px;
+    margin-top: 15px;
+}
+.parpric5{
+    color: #5a5858;
+    position: relative;
+    top: 20px;
+}
+
+.container-parpric7{
+    display: flex;
+    gap: 15px;
+    position: relative;
+    top: 10px;       
+}
+.parpric7{
+    position: absolute;
+    color: #5a5858;
+    position: relative;
+    top: 10px;
+}
+.container-parpric8{
+    display: flex;
+    gap: 15px;
+    position: relative;
+    top: 10px; 
+}
+#see1{
+    background: transparent;
+    border: 1px solid #DB4746;
+    color: #DB4746;
+    border-radius: 23px 23px 23px 23px;
+    width: 250px;
+    font-size: 15px;
+    height: 40px;
+    top: 25px;
+    left: 20px;
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    padding-left: 50px;
+}
+.or-pric{
+    margin-top: 40px;
+    margin-left: 140px;
+    color: gray;
+}
+#choose-1{
+    width: 250px;
+    height: 45px;
+    font-size: 15px;
+    color: white;
+    background-color: #ff6e61;
+    border: 1px solid #ff6e61;
+    border-radius: 30px 30px 30px 30px;
+    padding-left: 70px;
+    position: relative;
+    display: flex;
+    gap: 17px;
+    align-items: center;
+    top: 20px;
+    left: 20px;
+}
+.parrecomm{
+    color: #2c96e5;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.parviprec{
+    display: flex;
+}
+#btnpricing {
+    width: 230px;
+    height: 60px;
+    font-size: 18px;
+    font-weight: 14px;
+    color: white;
+    background-color: #ff6f61;
+    border-color: transparent;
+    border-radius: 30px 30px 30px 30px;
+    padding-right: 40px;
+    position: relative;
+    top: 50px;
+    left: 550px;
 }
