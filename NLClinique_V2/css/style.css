@@ -1,23 +1,27 @@
 /*je supprimer les marges par défaut du navigateur*/
 * {
     margin: 0;
-    padding: 0;
     box-sizing: border-box;
     font-family: "Inter", sans-serif;
 }
+/*html, body {
+  overflow-x: hidden;
+}*/
 
 .uni-container {
     background: url("../images/hero.png");
-    height: 100vh;
+    height: 110vh;
+    width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 #logoHeader {
-    height: 180px;
-    width: 280px;
+    height: 170px;
+    width: 270px;
     position: relative;
     bottom: 25px;
+    left: 30px;
 }
 
 .uni-menu {
@@ -56,7 +60,7 @@
 #textsearch::placeholder {
     color: white;
     position: absolute;
-    left: 55px;
+    left: 60px;
 }
 
 #textsearch {
@@ -64,7 +68,7 @@
     border: 1px solid white;
     padding-top: 15px;
     padding-bottom: 15px;
-    padding-right: 40px;
+
     border-radius: 15px;
     font-size: 15px;
 }
@@ -88,6 +92,9 @@
 
 #imgherodoctor {
     width: 600px;
+    position: relative;
+    left: 60px;
+    bottom: 50px;
 }
 
 .div-hero-right {
@@ -115,8 +122,9 @@
 .formhero {
     background: white;
     position: relative;
-    bottom: 250px;
-    height: 235px;
+    bottom: 240px;
+    height: 230px;
+    left: 50px;
     border-radius: 20px 20px 0 0;
 }
 
@@ -137,7 +145,7 @@
 #texthero {
     color: white;
     font-size: 50px;
-    font-weight: 900px;
+    font-weight: bold;
     position: absolute;
     width: 800px;
     left: 150px;
@@ -182,10 +190,8 @@
 
 #idflechebook {
     position: absolute;
-    top: 12px;
-    left: 200px;
-    z-index: 1;
-
+    top: 10px;
+    right: 20px;
 }
 
 .or {
@@ -220,8 +226,8 @@
 }
 
 #idiconehours {
-    width: 70px;
-    height: 95px;
+    width: 80px;
+    height: 100px;
 }
 
 .div-hero-left {
@@ -307,16 +313,12 @@ select {
 }
 
 .sponsor {
-    position: absolute;
-    display: flex;
-    gap: 50px;
-    bottom: 120px;
-    left: 250px;
-    width: 150px;
-}
-
-.section-sponsor {
     position: relative;
+    display: flex;
+    gap: 100px;
+    bottom: 150px;
+    left: 150px;
+
 }
 
 .about-left {
@@ -326,41 +328,47 @@ select {
 }
 
 #imgabou1 {
-    width: 500px;
+    width: 550px;
 }
 
 #imgabout2 {
-    width: 250px;
+    width: 275px;
 }
 
 #paragabout {
     background-color: #2ecc70f6;
     color: white;
-    width: 200px;
-    height: 110px;
+    width: 230px;
+    height: 120px;
     border-radius: 20px 20px 20px 0;
-    padding-left: 20px;
+    padding-left: 30px;
     padding-top: 20px;
-    font-weight: 20px;
+    font-size: 20px;
     position: absolute;
-    top: 60px;
-    left: 220px;
+    top: 50px;
+    left: 250px;
 }
 
 .about {
     background: #F4F8FB;
     border-radius: 15px 15px 15px 15px;
-    left: 50px;
-    right: 50px;
+    left: 30px;
+    bottom: 50px;
+    height: 850px;
     position: relative;
     display: flex;
     justify-content: space-between;
 }
 
+#paraviscli {
+    color: #5a5858;
+    font-size: 19px;
+    margin: 40px;
+}
+
 #spann {
-    margin-top: 20px;
-    font-size: 30px;
-    font-weight: 800;
+    font-size: 50px;
+    font-weight: 700;
 }
 
 .about-left-2 {
@@ -378,24 +386,30 @@ select {
 
 .paragaboutright {
     color: #2c96e5;
-    font-size: 40px;
+    font-size: 50px;
     font-weight: 600;
-    width: 500px;
+    width: 600px;
     height: 100px;
-    margin-top: 30px;
+    margin-top: 50px;
 }
 
 .paraboutright2 {
-    margin-top: 25px;
+    margin-top: 40px;
+    font-size: 20px;
 }
 
 .avisclient {
-    margin-top: 60px;
+    margin-top: 50px;
     border: 1px solid #E1E1E1;
-    width: 500px;
-    height: 200px;
+    width: 580px;
+    height: 230px;
     border-radius: 0 23px 23px 23px;
     position: relative;
+}
+
+#lineabo {
+    color: #3498DB;
+    font-size: 20px;
 }
 
 .about-right {
@@ -403,32 +417,30 @@ select {
     display: flex;
     flex-direction: column;
     top: 50px;
-    right: 300px;
+    right: 150px;
 
 }
 
 .divab {
-    background-color: #2ecc70a8;
+    background-color: #5EE088;
     border-radius: 20px 20px 0 20px;
-    width: 200px;
+    width: 160px;
     height: 50px;
     color: white;
-    top: 35px;
-    left: 150px;
-    padding: 10px 35px 25px 35px;
-    font-size: 20px;
-    border: 2px solid #5EE088;
+    padding: 15px 35px;
+    font-weight: 600;
+    border: 3px solid #2ecc70a8;
 }
 
 #imgperabo {
     position: absolute;
-    bottom: 170px;
+    bottom: 200px;
     left: -6px;
 }
 
 #imgperabo2 {
     position: absolute;
-    bottom: 170px;
+    bottom: 200px;
     left: 40px;
 }
 
@@ -446,13 +458,12 @@ select {
 }
 
 #moreabout {
-    width: 200px;
+    width: 250px;
     height: 60px;
-    font-size: 18px;
-    font-weight: 14px;
+    font-size: 20px;
     color: white;
-    background-color: #ff6f61;
-    border-color: transparent;
+    background-color: #ff6e61;
+    border: 1px solid red;
     border-radius: 30px 30px 30px 30px;
     padding-right: 40px;
     position: relative;
@@ -461,10 +472,14 @@ select {
 
 .divabout {
     display: flex;
-    gap: 200px;
-    height: 50px;
-    margin-top: 50px;
-    margin-left: 150px;
+    justify-content: space-around;
+    margin-left: 50px;
+}
+
+.divabout2 {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 70px;
 }
 
 .stylpara {
@@ -475,6 +490,7 @@ select {
 
 .uni-container-services {
     background: #F4F8FB;
+    height: 1400px;
     border-radius: 15px 15px 15px 15px;
     position: relative;
     left: 50px;
@@ -483,23 +499,22 @@ select {
 
 .ourservice {
     background-color: #2ecc70f6;
+    border: 3px solid rgba(0, 128, 0, 0.253);
     color: white;
-    width: 180px;
+    width: 160px;
     height: 50px;
     border-radius: 20px 20px 0 20px;
     font-weight: 600;
     position: relative;
     top: 100px;
     left: 100px;
-    padding: 20px;
+    padding: 15px;
 }
 
 #p1 {
     color: #2c96e5;
-    font-size: 40px;
+    font-size: 50px;
     font-weight: 600;
-    width: 500px;
-    height: 100px;
     margin-top: 150px;
     margin-left: 100px;
 }
@@ -507,6 +522,7 @@ select {
 #p2 {
     margin-top: 180px;
     margin-right: 100px;
+    font-size: 25px;
     text-align: end;
 }
 
@@ -516,8 +532,8 @@ select {
 }
 
 .sp1 {
-    width: 330px;
-    height: 300px;
+    width: 400px;
+    height: 400px;
     background-color: white;
     border-radius: 25px 25px 25px 25px;
     margin-top: 50px;
@@ -535,21 +551,21 @@ select {
 }
 
 #img-sp1 {
-    width: 60px;
+    width: 100px;
     margin-left: 30px;
     margin-top: 30px;
 }
 
 h1 {
     color: #D6F6FD;
-    font-size: 50px;
+    font-size: 100px;
     margin-right: 30px;
     margin-top: 25px;
 }
 
 .par {
     color: #2677BC;
-    font-size: 25px;
+    font-size: 40px;
     font-weight: 500;
     margin-left: 30px;
     margin-top: 25px;
@@ -557,6 +573,7 @@ h1 {
 
 .par2 {
     color: #5B5B5B;
+    font-size: 22px;
     margin-left: 30px;
     margin-top: 20px;
 }
@@ -566,10 +583,11 @@ h1 {
     border: 1px solid #DB4746;
     color: #DB4746;
     border-radius: 23px 23px 23px 23px;
-    width: 160px;
+    width: 200px;
+    font-size: 22px;
     height: 50px;
-    margin-top: 20px;
-    margin-left: 30px;
+    top: 20px;
+    left: 30px;
     position: relative;
     display: inline-flex;
     align-items: center;
@@ -578,17 +596,19 @@ h1 {
 
 #arrowservice {
     position: absolute;
-    right: 25px;
+    right: 15px;
 }
 
 .lineSpecialite1 {
+    margin-left: 100px;
     display: flex;
-    justify-content: space-around;
+    gap: 60px;
 }
 
 .lineSpecialite2 {
+    margin-left: 100px;
     display: flex;
-    justify-content: space-around;
+    gap: 60px;
 }
 
 #btnservice {
@@ -601,13 +621,16 @@ h1 {
     border-color: transparent;
     border-radius: 30px 30px 30px 30px;
     position: relative;
-
+    left: 650px;
+    top: 50px;
+    padding-right:30px ;
 }
 
 .uni-container-doctors {
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: relative;
 }
 
 .ourdoctors {
@@ -634,49 +657,58 @@ h1 {
     text-align: center;
 }
 
-.linedoct1{
+.linedoct1 {
     display: flex;
     gap: 50px;
     height: 300px;
     margin-top: 50px;
+    margin-left: 120px;
     margin-bottom: 250px;
 }
-.linedoct2{
+
+.linedoct2 {
     display: flex;
     gap: 50px;
     height: 300px;
     margin-top: 50px;
+    margin-left: 120px;
 }
-.styldoc{
+
+.styldoc {
     background-color: #F5F8FA;
     width: 350px;
     height: 550px;
     border-radius: 23px 23px 23px 23px;
-    
+
 }
-#imgdoc2{
+
+#imgdoc2 {
     margin-top: 25px;
     margin-left: 20px;
 }
-.imgdoc{
+
+.imgdoc {
     width: 250px;
     margin-left: 50px;
     margin-top: 25px;
 }
-.namedoc{
+
+.namedoc {
     color: #2677BC;
     font-size: 30px;
     font-weight: 700;
     margin-left: 80px;
     margin-top: 25px;
 }
-.spcliadoc{
+
+.spcliadoc {
     color: #ff6f61;
     margin-left: 120px;
     margin-top: 20px;
     font-size: 25px;
 }
-.parlinedoctor{
+
+.parlinedoctor {
     color: #5b5b5b;
     margin-top: 20px;
     margin-left: 20px;
@@ -696,5 +728,53 @@ h1 {
     padding-right: 40px;
     position: relative;
     top: 300px;
-
+    left: 60px;
+}
+.appoint{
+    margin-top: 400px;
+    margin-left: 50px;
+    position: relative;
+}
+#imgrec{
+    position: absolute;
+    left: 50px;
+    top: 1px;
+}
+#imgcov{
+    position: relative;
+    left: 840px;
+}
+.pappoint{
+    color: white;
+    font-size: 50px;
+    font-weight: 600;
+    width: 600px;
+    height: 100px;
+    position: relative;
+    bottom: 450px;
+    left: 150px;
+}
+.pappoit2{
+    color: white;
+    position: relative;
+    bottom: 390px;
+    left: 150px;
+    font-size: 18px;
+}
+#btnappoint{
+    color: #2677bc;
+    position: relative;
+    bottom: 320px;
+    left: 150px;
+    width: 300px;
+    height: 60px;
+    border-radius: 50px 50px 50px 50px;
+    font-size: 17px;
+    padding-right: 50px;
+}
+#flechapp{
+    width: 40px;
+    position: absolute;
+    right: 20px;
+    bottom: 8px;
 }
