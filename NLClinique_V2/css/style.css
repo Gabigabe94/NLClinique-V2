@@ -333,7 +333,7 @@ select {
 }
 
 #imgabout2 {
-    width: 275px;
+    width: 270px;
 }
 
 #paragabout {
@@ -349,7 +349,9 @@ select {
     top: 50px;
     left: 250px;
 }
-
+.section-about{
+    margin-top: 200px;
+}
 .about {
     background: #F4F8FB;
     border-radius: 15px 15px 15px 15px;
@@ -1181,4 +1183,11 @@ h1 {
 }
 .heroabout{
     display: flex;
+}
+.ourmession p{
+    position: relative;
+    margin-top: 200px;
+    margin-left: 100px;
+    color: #313131;
+    font-size: 22px;
 }
