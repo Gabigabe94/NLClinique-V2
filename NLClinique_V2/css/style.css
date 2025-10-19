@@ -1169,3 +1169,16 @@ h1 {
     color: #969696;
     margin-top: 20px;
 }
+
+.heroleft p{
+    color: white;
+    margin-top: 50px;
+    font-size: 20px;
+}
+.heroleft{
+    margin-left: 150px;
+    margin-top: 50px;
+}
+.heroabout{
+    display: flex;
+}
