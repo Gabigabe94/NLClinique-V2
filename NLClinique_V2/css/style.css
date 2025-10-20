@@ -1191,3 +1191,10 @@ h1 {
     color: #313131;
     font-size: 22px;
 }
+.contact{
+    position: relative;
+    top: 200px;
+    background: white;
+    width: 1150px;
+    border-radius: 23px 23px 23px 23px;
+}
